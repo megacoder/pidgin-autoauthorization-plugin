@@ -39,7 +39,9 @@
 #include "version.h"
 #include "account.h"
 #include "debug.h"
-#include "internal.h"
+#if	0
+# include "internal.h"
+#endif	/* NOPE */
 
 typedef enum
 {
